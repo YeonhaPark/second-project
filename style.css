@@ -1,0 +1,40 @@
+h2 span {
+  color: rgb(96, 169, 171);
+}
+
+#about ul {
+  display: flex;
+  gap: 12px;
+}
+
+#about ul li {
+  border-radius: 50%;
+  padding: 8px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about ul li.first {
+  background-color: #f5f500;
+}
+#about ul li.second {
+  background-color: #c9c9c9;
+}
+#about ul li.third {
+  background-color: #a22d33;
+}
+#about ul li.fourth {
+  background-color: #3f50b5;
+}
+#about ul li.fifth {
+  background-color: #2196f3;
+}
+
+li span {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
